@@ -1,0 +1,29 @@
+/* COMMON CSS */
+*{
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+.text-primary{
+    color: #FD6E0A;
+}
+.btn-primary{
+    border-radius: 5px;
+    background: #FD6E0A;
+}
+
+nav{
+    display: flex;
+}
+nav ul{
+    display: flex;
+    list-style-type: none;
+}
+nav ul li{
+    margin-right: 20px;
+    border-radius: 5px;
+}
+nav a{
+    text-decoration: none;
+    padding: 10px 20px;
+}
