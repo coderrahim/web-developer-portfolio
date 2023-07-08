@@ -5,6 +5,10 @@
     box-sizing: border-box;
     font-family: 'Open Sans', sans-serif;
 }
+main{
+    margin: 0 auto;
+    width: 1080px;
+}
 .text-primary{
     color: #FD6E0A;
 }
@@ -26,14 +30,21 @@
     text-align: center;
     font-size: 35px;
     font-weight: 700;
-    margin-bottom: 10px;
+    margin-bottom: 50px;    
+}
+section{
+    padding: 50px 0px;
+    margin: 10px 0px;
 }
 .section-description{
     color: #757575;
     text-align: center;
     font-size: 18px;
     font-weight: 400;
+    padding: 0px 150px;
+    font-size: 16px;
 }
+
 
 
 /* NAV AREA CSS */
@@ -96,15 +107,15 @@ nav a{
 /* ABOUT SECTION CSS */
 .about{
     background-color: #FFF8F3;
-    margin: 130px 200px;
-    padding: 130px 150px;
+    margin: 50px 0px;
+    padding: 110px 100px;
 }
 .about-item-container{
     display: flex;
     justify-content: space-between;
 }
 .about-item{
-    padding: 30px;
+    padding: 20px;
 }
 .about-title{
     color: #757575;
@@ -120,3 +131,59 @@ nav a{
     line-height: 30px; 
 }
 
+/* SERVICE SECTION */
+.service-container{
+    display: flex;
+    text-align: center;
+}
+.service-box{
+    gap: 30px;
+    margin: 40px 10px;
+    padding: 50px 30px;
+    border-radius: 5px;
+    background: #FFF;
+    box-shadow: 0px 8px 10px  rgba(0, 0, 0, 0.06);
+}
+.service-box h2{
+    margin: 20px 0;
+    font-size: 18px;
+    font-weight: 600;
+}
+.service-box p{
+    padding: 0px 5;
+}
+
+/* REsume section css */
+.rusume-container{
+    display: flex;
+}
+
+#left-resume{
+    margin-right: 30px;
+}
+.resume .resume-top-title{
+    color: #474747;
+    font-size: 30px;
+}
+.resume-item .resume-title{
+    font-size: 25px;
+    margin-top: 30px;
+    color: #474747;
+}
+.resume-item .resume-sub-title{
+    color: #757575;
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+.resume p{
+    color: #757575;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    margin-bottom: 20px;
+}
+.resume hr{
+    width: 500px;
+    height: 1px;
+}
